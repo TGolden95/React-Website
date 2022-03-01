@@ -11,7 +11,8 @@ export default function App() {
           <a href="#experience">Experience</a>
           <a href="#work">Work</a>
           <a href="#contact">Contact Me</a>
-          {/* <a href="./Assets/Golden Resume (Coding)- copy.pdf">Resume</a> */}
+          <a href="./assets/Golden Resume (Coding)- copy.pdf">Resume</a>
+          {/* Github Logo */}
           {/* <p><a href="https://github.com/TGolden95"><img src="./images/github logo.png" className="gitlogo"></a></p> */}
         </nav>
       </header>
