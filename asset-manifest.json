@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Website/static/css/main.b71e0e9d.css",
-    "main.js": "/React-Website/static/js/main.e292b0ed.js",
+    "main.js": "/React-Website/static/js/main.fa29eb82.js",
     "static/media/headshot.png": "/React-Website/static/media/headshot.5a665db6574bf1620144.png",
     "static/media/chocolate-chip-cookie.png": "/React-Website/static/media/chocolate-chip-cookie.f7aa3a1f679d1d9f01ca.png",
     "static/media/basketball.png": "/React-Website/static/media/basketball.022ac5fa2fbdd7f87253.png",
@@ -9,10 +9,10 @@
     "static/media/03-javascript-homework-demo.png": "/React-Website/static/media/03-javascript-homework-demo.aa25cbf89939def02f6b.png",
     "index.html": "/React-Website/index.html",
     "main.b71e0e9d.css.map": "/React-Website/static/css/main.b71e0e9d.css.map",
-    "main.e292b0ed.js.map": "/React-Website/static/js/main.e292b0ed.js.map"
+    "main.fa29eb82.js.map": "/React-Website/static/js/main.fa29eb82.js.map"
   },
   "entrypoints": [
     "static/css/main.b71e0e9d.css",
-    "static/js/main.e292b0ed.js"
+    "static/js/main.fa29eb82.js"
   ]
 }
