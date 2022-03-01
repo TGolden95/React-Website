@@ -1,0 +1,301 @@
+/* .first-color { dark blue
+	background: #233142; 
+}
+	
+.second-color { medium blue
+	background: #36506c; 
+}
+
+.third-color { light blue
+	background: #a5def1; 
+}
+
+.fourth-color { lighter blue
+	background: #ebf7fd; 
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.gitlogo {
+  max-height: 35px;
+  max-width: 35px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: right;
+}
+
+.headshot {
+  padding-right: 10%;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color: #ebf7fd;
+}
+
+img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.page-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-section {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.page-section h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid burlywood;
+  font-size: 30px 4vw;
+  line-height: 1.1;
+  color: burlywood;
+}
+
+.page-section div {
+  flex: 0 0 77%;
+}
+
+.page-section p {
+  margin-top: 20px;
+}
+
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #a5def1;
+  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+}
+
+header h1 {
+  color: #233142;
+  background-color: #a5def1;
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+  font-size: 4vw;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: red;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #36506c;
+  margin-right: 10px;
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
+}
+
+nav a:hover {
+  color: burlywood;
+}
+
+.detail {
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.detail h1 {
+  font-size: 50px;
+  color: #233142;
+  margin-bottom: 20px;
+}
+.detail p {
+  font-size: 35px;
+  color: #233142;
+  margin-left: 120px;
+}
+
+span {
+  color: burlywood;
+}
+
+.flex-item {
+  border: 5px solid burlywood;
+  background-color: #a5def1;
+  color: #233142;
+  height: 100%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 10px 20px 10px;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9vw;
+}
+
+.flex-item2 {
+  border: 5px solid burlywood;
+  background-color: #a5def1;
+  color: #233142;
+  height: 100%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  padding: 0 10px 20px 10px;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .page-section > h2,
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .page-section > h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--primary);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+}
+
+.flex-item3 {
+  border: 5px solid burlywood;
+  color: #233142;
+  height: 38%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 10px 20px 10px;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9vw;
+}
+
+.password-generator {
+  background-image: url("./images/03-javascript-homework-demo.png");
+  background-position: center;
+}
+
+.day-planner {
+  background-image: url("./images/calendar\ image.png");
+  background-position: center;
+}
+
+.basketball {
+  background-image: url("./images/basketball.png");
+  background-position: center;
+}
+
+.cookie {
+  background-image: url("./images/chocolate-chip-cookie.png");
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+    font-size: 12px;
+  }
+
+  .detail h1 {
+    font-size: 20px;
+  }
+
+  .detail p {
+    font-size: 20px;
+  }
+
+  .flex-item:first-child {
+    min-height: 150px;
+  }
+
+  img {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  body {
+    font-size: 50%;
+  }
+
+  .hero-banner {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  list-style-type: none;
+}
+
+.contact ul li a {
+  color: #36506c;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-style: normal;
+  margin: 0 0.2rem 0.1rem;
+  display: inline-block;
+}
+
+.contact ul li a:hover {
+  background-size: 100% 88%;
+  color: burlywood;
+}
